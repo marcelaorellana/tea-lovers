@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -18,9 +18,41 @@
 	</section>
 	<!--seccion news letter-->
 	<section class="color">
+
 		<div class="newsletter">
+			<h1>¿te gusta el té?</h1>
+			<form action="">
+			<div>
+				<label for="nombreId">Nombre</label>
+				<input type="text" name="nombre" id="nombreId" placeholder="Escribe tu nombre">
+			</div>
+			<div>
+				<label for=mailId>Email</label>
+				<input type="text" name="email" id="mailId" placeholder="Escribe tu email">
+			</div>
+			<div>
+				<label for="direccionId">Dirección</label>
+				<input type="text" name="direccion" id="direccionId" placeholder="Escribe tu dirección">
+			</div>
+			<div id="chao">
+			
+				<label id="hola">Té Favorito</label>
+				<select id="selectId">
+				  	<option value="seccion">Selecciona un Té</option>
+				  	<option value="negro">Negro</option>
+				  	<option value="verde">Verde</option>
+				  	<option value="rojo">Rojo</option>
+				  	<option value="blanco">Blanco</option>
+				  	<option value="oolong">Oolong</option>
+				</select>
+				</form>
+			</div>
+			<div id="chequeo">
+				<input type="checkbox" id="checkId" name="muestas" value="muestas"><label for="checkId" id="muestrasTextId">Quiero recivir muestras gratis</label>
+			</div>
 			<button id="suscribirse">suscribete a nuestro newsletter</button>
 		</div>
+		</form>
 	</section>
 	<!--seccion nuestra pasion-->
 	<section id="about">
@@ -70,5 +102,6 @@
 	<footer>
 		<p>Té encamtó: Av Italia 666. Providencia</p>
 	</footer>
+	<script type="text/javascript" src="assets/js/main.js"></script>
 	</body>
 </html>
